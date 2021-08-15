@@ -9,9 +9,7 @@ function App() {
         <h1>
           HelloWorldPro.com
         </h1>
-      </header>
-
-      <footer className="App-footer">
+        <footer>
         Created by: 
         <a
           className="App-link"
@@ -21,6 +19,7 @@ function App() {
             jasonleewilson.com
         </a>
       </footer>
+      </header>
     </div>
   );
 }
