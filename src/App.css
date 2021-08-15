@@ -13,9 +13,10 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header, .App-footer {
+  background-color: #aeaeae;
+  /* background-color: #282c34; */
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,10 +24,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App-footer {
+  min-height: 10vh;
+  font-size: calc(10px + 1vmin);
 }
+
+.App-link {color: brown; text-decoration:none;}
+.App-link:hover {color: red;}
 
 @keyframes App-logo-spin {
   from {
