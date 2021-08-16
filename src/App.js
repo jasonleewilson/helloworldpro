@@ -7,8 +7,8 @@ function App() {
         <h1>
           HelloWorldPro.com
         </h1>
-        <footer>
-        Created by: 
+        <footer className="App-footer">
+        Coded by: &nbsp;
         <a
           className="App-link"
           href="https://jasonleewilson.com"

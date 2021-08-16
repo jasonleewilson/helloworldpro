@@ -13,7 +13,7 @@
   }
 }
 
-.App-header, .App-footer {
+.App-header {
   /* background-color: #0c8fdb; */
   min-height: 100vh;
   display: flex;
@@ -23,6 +23,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-footer {font-size: calc(10px + 1vmin);position: absolute;bottom:0; margin-bottom: 5rem;}
 
 .App-link {color: brown; text-decoration:none;}
 .App-link:hover {color: red;}
