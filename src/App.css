@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .App-logo {
@@ -26,9 +32,9 @@
 
 .App-footer {
   font-size: calc(10px + 1vmin);
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
-  margin-bottom: 5rem;
+  margin: 2rem auto;
 }
 
 .App-link {
