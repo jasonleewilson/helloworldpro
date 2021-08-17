@@ -10,11 +10,11 @@ function App() {
       </header>
       <div className="container">
         <div className="myform">
-          <form name="form-name" method="POST" data-netlify="true">
-            <input className="d-block form-control" type="text" name="name" id="name" placeholder="Name" /><br />
-            <input className="d-block form-control" type="text" name="email" id="email" placeholder="Email" /><br />
-            {/* <textarea className="d-block form-control" name="message" id="message" placeholder="Message" /><br /> */}
-            <input type="hidden" name="form-name" value="form-name" />
+          <form name="contact" method="POST" netlify netlify-honeypt="bot-field">
+            <input className="d-block form-control" type="text" name="name" placeholder="Name" /><br />
+            <input className="d-block form-control" type="email" name="email" placeholder="Email" /><br />
+            <textarea className="d-block form-control" name="message" placeholder="Message" /><br />
+            <input type="hidden" name="form-name" value="contact" />
             <div data-netlify-recaptcha="true"></div>
             <button className="w-100 btn btn-lg btn-primary" type="submit" value="Send Message">Say Hi!!!</button>
           </form>
