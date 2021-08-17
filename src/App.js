@@ -11,11 +11,11 @@ function App() {
       <div className="container">
         <div className="myform">
           <form action="POST" data-netlify="true">
-            <input type="text" name="name" id="name" placeholder="Name" />
-            <input type="text" name="email" id="email" placeholder="Email" />
-            <textarea name="message" id="message" placeholder="Message" />
+            <input className="d-block form-control" type="text" name="name" id="name" placeholder="Name" /><br />
+            <input className="d-block form-control" type="text" name="email" id="email" placeholder="Email" /><br />
+            <textarea className="d-block form-control" name="message" id="message" placeholder="Message" /><br />
             <div data-netlify-recaptcha="true"></div>
-            <input type="submit" value="Send Message" />
+            <button class="w-100 btn btn-lg btn-primary" type="submit" value="Send Message">Say Hi!!!</button>
           </form>
         </div>
       </div>

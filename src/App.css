@@ -24,10 +24,27 @@
   color: white;
 }
 
-.App-footer {font-size: calc(10px + 1vmin);position: absolute;bottom:0; margin-bottom: 5rem;}
+.App-footer {
+  font-size: calc(10px + 1vmin);
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5rem;
+}
 
-.App-link {color: brown; text-decoration:none;}
-.App-link:hover {color: red;}
+.App-link {
+  color: brown;
+  text-decoration: none;
+}
+.App-link:hover {
+  color: red;
+}
+
+.myform {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
 
 @keyframes App-logo-spin {
   from {
