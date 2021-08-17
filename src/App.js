@@ -14,6 +14,7 @@ function App() {
             <input type="text" name="name" id="name" placeholder="Name" />
             <input type="text" name="email" id="email" placeholder="Email" />
             <textarea name="message" id="message" placeholder="Message" />
+            <div data-netlify-recaptcha="true"></div>
             <input type="submit" value="Send Message" />
           </form>
         </div>
