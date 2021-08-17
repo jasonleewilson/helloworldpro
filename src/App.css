@@ -40,11 +40,11 @@ input, textarea {margin-bottom:0.8rem;}
 }
 
 .App-link {
-  color: brown;
+  color: #000;
   text-decoration: none;
 }
 .App-link:hover {
-  color: red;
+  color: #fff;
 }
 
 .myform {
