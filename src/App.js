@@ -15,13 +15,12 @@ function App() {
         </div>
       </div>
       <footer className="App-footer">
-          Coded by: &nbsp;
           <a
             className="App-link"
-            href="https://jasonleewilson.com"
+            href="https://github.com/jasonleewilson/helloworldpro"
             target="_blank"
             rel="noopener noreferrer">
-              jasonleewilson.com
+              View the code @ gitHub
           </a>
         </footer>
     </div>
