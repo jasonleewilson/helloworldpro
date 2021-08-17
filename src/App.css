@@ -33,7 +33,7 @@ input, textarea {margin-bottom:0.8rem;}
 }
 
 .App-footer {
-  font-size: calc(10px + 1vmin);
+  font-size: calc(10px + 2vmin);
   /* position: absolute; */
   bottom: 0;
   margin: 0 auto;
