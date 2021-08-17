@@ -15,7 +15,7 @@ function App() {
             <input className="d-block form-control" type="text" name="email" id="email" placeholder="Email" /><br />
             <textarea className="d-block form-control" name="message" id="message" placeholder="Message" /><br />
             <div data-netlify-recaptcha="true"></div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit" value="Send Message">Say Hi!!!</button>
+            <button className="w-100 btn btn-lg btn-primary" type="submit" value="Send Message">Say Hi!!!</button>
           </form>
         </div>
       </div>
