@@ -10,7 +10,7 @@ function App() {
       </header>
       <div className="container">
         <div className="myform">
-          <form method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form name="contact" method="POST" data-netlify="true">
             <input className="d-block form-control" type="text" name="name" id="name" placeholder="Name" /><br />
             <input className="d-block form-control" type="text" name="email" id="email" placeholder="Email" /><br />
             <textarea className="d-block form-control" name="message" id="message" placeholder="Message" /><br />
