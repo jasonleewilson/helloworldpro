@@ -40,8 +40,9 @@ input, textarea {margin-bottom:0.8rem;}
 }
 
 .App-link {
-  color: #000;
+  color: #fff;
   text-decoration: none;
+  font-size: calc(4px + 2vmin);
 }
 .App-link:hover {
   color: #fff;

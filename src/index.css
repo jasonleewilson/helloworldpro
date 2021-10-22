@@ -1,5 +1,5 @@
 body {
-  background-color: #0c8fdb;
+  background-color: rgb(118, 16, 252);
   color: #000;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,7 +9,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {font-size: 1.8rem;}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-primary {
+  background: rgb(172, 13, 92);
+  border-color: rgb(172, 13, 92);
+}
+.btn-primary:hover {background: rgb(233, 12, 122);}
