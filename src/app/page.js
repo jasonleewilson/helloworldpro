@@ -38,7 +38,10 @@ export default function Home() {
                   <input
                     type='email'
                     className='w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm'
+                    name='email'
+                    aria-label='email'
                     placeholder='Enter email'
+                    required
                   />
 
                   <span className='absolute inset-y-0 end-0 grid place-content-center px-4'>
