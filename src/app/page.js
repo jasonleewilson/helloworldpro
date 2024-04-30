@@ -28,8 +28,15 @@ export default function Home() {
               method='post'
               className='mx-auto mb-0 mt-8 max-w-md space-y-4'
               netlify='true'
+              netlify-honeypot='bot-field'
             >
               <div>
+                <p class='hidden'>
+                  <label>
+                    Don't fill this out if you're human:{" "}
+                    <input name='bot-field' />
+                  </label>
+                </p>
                 <label htmlFor='email' className='sr-only'>
                   Email
                 </label>
