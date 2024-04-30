@@ -108,6 +108,9 @@ export default function Home() {
               src={hero}
               alt='Helloworldpro hero image'
               className='absolute inset-0 h-full w-full object-cover'
+              width='0'
+              height='0'
+              sizes='100vw'
             />
             {/* <img
               alt=''
