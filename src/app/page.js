@@ -24,11 +24,11 @@ export default function Home() {
 
             <form
               name='contact'
+              method='POST'
               action='/success'
-              method='post'
               className='mx-auto mb-0 mt-8 max-w-md space-y-4'
               netlify-honeypot='bot-field'
-              netlify='true'
+              data-netlify='true'
             >
               <div>
                 <p className='hidden'>
