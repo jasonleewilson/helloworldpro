@@ -27,8 +27,8 @@ export default function Home() {
               action='/success'
               method='post'
               className='mx-auto mb-0 mt-8 max-w-md space-y-4'
-              netlify='true'
               netlify-honeypot='bot-field'
+              netlify='true'
             >
               <div>
                 <p className='hidden'>
