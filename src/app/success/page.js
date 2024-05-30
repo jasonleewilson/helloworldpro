@@ -3,7 +3,7 @@ import hero from "../../assets//images/hero.jpg";
 import Link from "next/link";
 // import Link from "next/link";
 
-export default function Home() {
+export default function Success() {
   return (
     <>
       <main>

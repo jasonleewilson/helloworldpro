@@ -1,6 +1,7 @@
 import Image from "next/image";
 import hero from "../assets/images/hero.jpg";
 // import Link from "next/link";
+export const runtime = "edge";
 
 export default function Home() {
   return (
