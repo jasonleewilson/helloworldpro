@@ -1,7 +1,8 @@
 import Image from "next/image";
 import hero from "../assets/images/hero.jpg";
 // import Link from "next/link";
-// export const runtime = "edge";
+export const runtime = "edge";
+// export const runtime = experimental - edge;
 
 export default function Home() {
   return (
@@ -17,13 +18,13 @@ export default function Home() {
                 Helloworldpro.com
               </h1>
 
-              <p className='mt-4 text-gray-700'>
+              {/* <p className='mt-4 text-gray-700'>
                 Send us a message to say hi. We are building something new to
                 help your business get online.
-              </p>
+              </p> */}
             </div>
 
-            <form
+            {/* <form
               name='contact'
               method='POST'
               action='/success'
@@ -101,7 +102,7 @@ export default function Home() {
                   Say Hi
                 </button>
               </div>
-            </form>
+            </form> */}
           </div>
 
           <div className='relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2'>
