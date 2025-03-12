@@ -28,7 +28,7 @@ export default function Index() {
 
         <div className='relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2'>
           <img
-            alt=''
+            alt='2 people looking over design'
             src={hero}
             className='absolute inset-0 h-full w-full object-cover'
           />
