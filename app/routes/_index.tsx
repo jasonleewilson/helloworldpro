@@ -23,11 +23,6 @@ export default function Index() {
             <h1 className='text-gray-700 text-2xl font-bold sm:text-3xl'>
               Helloworldpro.com
             </h1>
-
-            {/* <p className='mt-4 text-gray-700'>
-              Send us a message to say hi. We are building something new to help
-              your business get online.
-            </p> */}
           </div>
 
           {/* <form
@@ -112,14 +107,6 @@ export default function Index() {
         </div>
 
         <div className='relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2'>
-          {/* <Image
-              src={hero}
-              alt='Helloworldpro hero image'
-              className='absolute inset-0 h-full w-full object-cover'
-              width='0'
-              height='0'
-              sizes='100vw'
-            /> */}
           <img
             alt=''
             src={hero}
