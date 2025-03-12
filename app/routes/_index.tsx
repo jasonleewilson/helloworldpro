@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
-import hero from "../assets/images/hero.jpg";
+import hero from "../assets/images/her-opt.jpg";
 
 export const meta: MetaFunction = () => {
   return [
