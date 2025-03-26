@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import hero from "../assets/images/her-opt.jpg";
+import ContactForm from "../components/Contact";
 
 export const meta: MetaFunction = () => {
   return [
@@ -23,6 +24,11 @@ export default function Index() {
             <h1 className='text-gray-700 text-2xl font-bold sm:text-3xl'>
               Helloworldpro.com
             </h1>
+            <p className='mt-4 text-gray-700'>
+              Send us a message to say hi. We are building something new to help
+              your business get online.
+            </p>
+            <ContactForm />
           </div>
         </div>
 
@@ -30,6 +36,8 @@ export default function Index() {
           <img
             alt='2 people looking over design'
             src={hero}
+            width={600}
+            height={800}
             className='absolute inset-0 h-full w-full object-cover'
           />
           {/* ALTERNATE IMAGE - https://images.unsplash.com/photo-1630450202872-e0829c9d6172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80 */}
