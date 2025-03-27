@@ -27,7 +27,7 @@ function ContactForm() {
       <form
         onSubmit={handleSubmit}
         method='POST'
-        // action='/success'
+        action='/success'
         className='mx-auto mb-0 mt-8 max-w-md space-y-4'
       >
         <div>
