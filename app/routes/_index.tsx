@@ -24,7 +24,7 @@ export default function Index() {
             <h1 className='text-gray-700 text-2xl font-bold sm:text-3xl'>
               Helloworldpro.com
             </h1>
-            <p className='mt-4 text-gray-700'>
+            <p className='mt-4 text-primary1'>
               Send us a message to say hi. We are building something new to help
               your business get online.
             </p>
