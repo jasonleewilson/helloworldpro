@@ -19,7 +19,7 @@ export default function Test() {
       <div className='z-10 absolute top-56 left-4 ml-1 bg-slate-800 text-white rounded px-4 py-2'>
         Snap Point
       </div> */}
-      <div className='container absolute top-0'>
+      <div className='container p-8 absolute top-0'>
         <img
           src='/logo.svg'
           className='pt-8'
@@ -88,11 +88,11 @@ export default function Test() {
         </figure>
 
         <figure className='h-full w-screen snap-center bg-white shrink-0'>
-          {/* <img
+          <img
             className='w-full h-full object-cover rounded-md'
             src='../../assets/images/food/healthy-food.jpg'
             alt=''
-          /> */}
+          />
         </figure>
 
         <figure className='h-full w-screen snap-center bg-custom-orange shrink-0'>
