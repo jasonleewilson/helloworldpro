@@ -62,14 +62,16 @@ export default function Test() {
 
         <figure className='h-full w-screen bg-custom-darkblue snap-center shrink-0'>
           <div className='container p-16'>
-            <h2 className='text-white text-9xl border-b-2'>helloworldpro</h2>
+            <h2 className='text-white text-xs lg:text-9xl border-b-2'>
+              helloworldpro
+            </h2>
             <Link
               to={"/about"}
               className='text-white cursor-custom nesw-resize'
             >
               About
             </Link>
-            <p className='text-4xl py-8 text-custom-blue relative bottom-0'>
+            <p className='text-xs lg:text-4xl py-8 text-custom-blue relative bottom-0'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
               doloremque distinctio explicabo earum maxime odio perspiciatis sed
               temporibus, fuga illo ipsum impedit facere unde nulla? Commodi
