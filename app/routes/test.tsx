@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
+import { Link } from "@remix-run/react";
+
 // import ContactForm from "../components/Contact";
 
 export const meta: MetaFunction = () => {
@@ -51,19 +53,41 @@ export default function Test() {
         <div className='snap-center shrink-0'>
           <div className='shrink-0 h-48'></div>
         </div>
-        <div className='snap-center shrink-0'>
+        {/* <div className='snap-center shrink-0'>
           <div className='shrink-0 h-48'></div>
         </div>
         <div className='snap-center shrink-0'>
           <div className='shrink-0 h-48'></div>
-        </div>
+        </div> */}
 
         <figure className='h-full w-screen bg-custom-darkblue snap-center shrink-0'>
-          {/* <img
-            className='w-full h-full object-cover rounded-md'
-            src='../../assets/images/food/fruit.jpg'
-            alt=''
-          /> */}
+          <div className='container p-16'>
+            <h2 className='text-white text-9xl border-b-2'>helloworldpro</h2>
+            <Link
+              to={"/about"}
+              className='text-white cursor-custom nesw-resize'
+            >
+              About
+            </Link>
+            <p className='text-4xl py-8 text-custom-blue relative bottom-0'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              doloremque distinctio explicabo earum maxime odio perspiciatis sed
+              temporibus, fuga illo ipsum impedit facere unde nulla? Commodi
+              mollitia unde culpa ipsa debitis repellat dolores fugit natus ad
+              vero incidunt, officiis perspiciatis modi soluta porro recusandae
+              voluptate in illo, ipsam, voluptatibus magni quidem animi! Officia
+              obcaecati illo doloremque odio quae distinctio fugiat libero!
+              Velit sapiente eaque assumenda ab. Exercitationem, eius! Deserunt
+              sunt omnis.
+            </p>
+            <div className='flex pt-4'>
+              <div className='text-black w-40 h-40 m-1 bg-custom-darkblue flying'></div>
+              <div className='text-black w-40 h-40 m-1 bg-custom-lightblue flying'></div>
+              <div className='text-black w-40 h-40 m-1 bg-custom-blue fingerprint'></div>
+              <div className='text-black w-40 h-40 m-1 bg-white fingerprint'></div>
+              <div className='text-black w-40 h-40 m-1 bg-custom-orange fingerprint'></div>
+            </div>
+          </div>
         </figure>
 
         <figure className='h-full w-screen snap-center bg-custom-lightblue shrink-0'>
