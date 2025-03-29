@@ -11,9 +11,9 @@ body {
   } */
 }
 
-/* .fingerprint:active {
+.fingerprint:active {
   cursor: url('../public/assets/images/fingerprint.png'), auto;
-} */
+}
 
 .nesw-resize     { cursor: pointer; }
 
