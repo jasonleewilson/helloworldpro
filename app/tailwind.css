@@ -4,7 +4,7 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  /* @apply bg-white dark:bg-gray-950; */
   cursor: nw-resize;
   /* @media (prefers-color-scheme: dark) {
     color-scheme: dark;
@@ -12,7 +12,7 @@ body {
 }
 
 .fingerprint:active {
-  cursor: url('../public/assets/images/fingerprint.png'), auto;
+  cursor: url('assets/images/fingerprint.png'), auto;
 }
 
 .nesw-resize     { cursor: pointer; }
@@ -20,3 +20,11 @@ body {
 .flying{
   cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'), auto;
 }
+
+.nail{
+  cursor: url('assets/images/nail.png'), auto;
+}
+
+/* .nail{
+  cursor: url('/app/assets/images/nail.png'), auto;
+} */
