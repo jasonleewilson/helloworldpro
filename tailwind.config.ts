@@ -1,34 +1,80 @@
 import type { Config } from "tailwindcss";
 
 export default {
-  content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
+    darkMode: ["class"],
+    content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: [
-          "Inter",
-          "ui-sans-serif",
-          "system-ui",
-          "sans-serif",
-          "Apple Color Emoji",
-          "Segoe UI Emoji",
-          "Segoe UI Symbol",
-          "Noto Color Emoji",
-        ],
-      },
-      colors: {
-        'custom-darkred': '#D90429', // custom color Dark red
-        'custom-red': '#EF233C', // custom color red
-        'custom-lightgrey': '#EDF2F4', // custom color light grey
-        'custom-mediumgrey': '#8D99AE', // custom color medium grey
-        'custom-darykgrey': '#2B2D42', // custom color dark grey
-
-        'custom-darkblue': '#304269', // custom color Dark blue
-        'custom-lightblue': '#91BED4', // custom color light blue
-        'custom-blue': '#D9E8F5', // custom color blue
-        'custom-orange': '#F26101', // custom color orange
-      },
-    },
+  	extend: {
+  		fontFamily: {
+  			sans: [
+  				'Inter',
+  				'ui-sans-serif',
+  				'system-ui',
+  				'sans-serif',
+  				'Apple Color Emoji',
+  				'Segoe UI Emoji',
+  				'Segoe UI Symbol',
+  				'Noto Color Emoji'
+  			]
+  		},
+  		colors: {
+  			'red-500': '#CD2229',
+  			'custom-darkred': '#D90429',
+  			'custom-red': '#EF233C',
+  			'custom-lightgrey': '#EDF2F4',
+  			'custom-mediumgrey': '#8D99AE',
+  			'custom-darykgrey': '#2B2D42',
+  			'custom-darkblue': '#304269',
+  			'custom-lightblue': '#91BED4',
+  			'custom-blue': '#D9E8F5',
+  			'custom-orange': '#F26101',
+  			background: 'hsl(var(--background))',
+  			foreground: 'hsl(var(--foreground))',
+  			card: {
+  				DEFAULT: 'hsl(var(--card))',
+  				foreground: 'hsl(var(--card-foreground))'
+  			},
+  			popover: {
+  				DEFAULT: 'hsl(var(--popover))',
+  				foreground: 'hsl(var(--popover-foreground))'
+  			},
+  			primary: {
+  				DEFAULT: 'hsl(var(--primary))',
+  				foreground: 'hsl(var(--primary-foreground))'
+  			},
+  			secondary: {
+  				DEFAULT: 'hsl(var(--secondary))',
+  				foreground: 'hsl(var(--secondary-foreground))'
+  			},
+  			muted: {
+  				DEFAULT: 'hsl(var(--muted))',
+  				foreground: 'hsl(var(--muted-foreground))'
+  			},
+  			accent: {
+  				DEFAULT: 'hsl(var(--accent))',
+  				foreground: 'hsl(var(--accent-foreground))'
+  			},
+  			destructive: {
+  				DEFAULT: 'hsl(var(--destructive))',
+  				foreground: 'hsl(var(--destructive-foreground))'
+  			},
+  			border: 'hsl(var(--border))',
+  			input: 'hsl(var(--input))',
+  			ring: 'hsl(var(--ring))',
+  			chart: {
+  				'1': 'hsl(var(--chart-1))',
+  				'2': 'hsl(var(--chart-2))',
+  				'3': 'hsl(var(--chart-3))',
+  				'4': 'hsl(var(--chart-4))',
+  				'5': 'hsl(var(--chart-5))'
+  			}
+  		},
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		}
+  	}
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 } satisfies Config;
