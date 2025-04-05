@@ -11,8 +11,27 @@ body {
   } */
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f40404; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #373232; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }
+
 .btn-custom {
-  @apply px-16 py-8 my-4 text-2xl bg-red-500 uppercase;
+  @apply px-16 py-8 my-4 text-2xl bg-red-500 hover:bg-red-800 uppercase;
 }
 
 .fingerprint:active {
@@ -93,11 +112,11 @@ body {
 
 
 
-@layer base {
+/* @layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
-}
+} */

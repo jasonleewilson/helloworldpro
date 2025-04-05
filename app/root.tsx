@@ -8,6 +8,10 @@ import {
 } from "@remix-run/react";
 
 import "./tailwind.css";
+import Layout from "./components/Layout";
+
+// import Header from "~/components/Header";
+// import Footer from "~/components/Footer";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -22,15 +26,15 @@ export const links: LinksFunction = () => [
   },
 ];
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export default function App() {
   return (
-    <html lang='en'>
+    <html lang='en' className='h-full'>
       <head>
         <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <Meta />
         <Links />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -40,23 +44,23 @@ export function Layout({ children }: { children: React.ReactNode }) {
               })(window,document,'script','dataLayer','GTM-5796J69');
           `,
           }}
-        />
+        /> */}
       </head>
-      <body>
+      <body className='h-full'>
         {/* <!-- Google Tag Manager (noscript) --> */}
-        <noscript>
+        {/* <noscript>
           <iframe
             title='GTM'
             src='https://www.googletagmanager.com/ns.html?id=GTM-5796J69'
             height='0'
             width='0'
             className='hidden invisible'
-            // style='display:none;visibility:hidden'
           ></iframe>
-        </noscript>
+        </noscript> */}
         {/* <!-- End Google Tag Manager (noscript) --> */}
-
-        {children}
+        <Layout>
+          <Outlet />
+        </Layout>
         <ScrollRestoration />
         <Scripts />
       </body>
@@ -64,6 +68,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default function App() {
-  return <Outlet />;
-}
+// export default function App() {
+//   return <Outlet />;
+// }

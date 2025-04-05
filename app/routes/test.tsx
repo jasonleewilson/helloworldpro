@@ -16,12 +16,12 @@ export const meta: MetaFunction = () => {
 
 export default function Test() {
   return (
-    <main className='bg-gray-300 h-screen flex justify-center items-center'>
+    <main className='h-screen flex justify-center items-center'>
       {/* <div className='absolute h-1 w-full bg-white z-10'></div>
       <div className='z-10 absolute top-56 left-4 ml-1 bg-slate-800 text-white rounded px-4 py-2'>
         Snap Point
       </div> */}
-      <div className='container p-8 absolute top-0'>
+      {/* <div className='container p-8 absolute top-0'>
         <img
           src='/logo.svg'
           className='pt-8'
@@ -47,7 +47,7 @@ export default function Test() {
           <div className='text-black w-40 h-40 m-1 bg-white'></div>
           <div className='text-black w-40 h-40 m-1 bg-custom-orange'></div>
         </div>
-      </div>
+      </div> */}
 
       <div className='relative h-full flex flex-col gap-6 overflow-y-auto snap-mandatory snap-y'>
         <div className='snap-center shrink-0'>
