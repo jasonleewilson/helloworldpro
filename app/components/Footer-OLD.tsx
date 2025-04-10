@@ -55,7 +55,7 @@ function Footer() {
             </div>
 
             <div className='md:col-span-4 md:mt-0 mt-8'>
-              <ul className='list-none foot-icon ltr:md:text-right rtl:md:text-left text-center'>
+              <ul className='list-none foot-icon md:ltr:text-right md:rtl:text-left text-center'>
                 <li className='inline'>
                   <a
                     href='https://dribbble.com/jasonleewilson'

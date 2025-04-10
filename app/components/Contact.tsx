@@ -43,7 +43,7 @@ function ContactForm() {
               id='email'
               type='email'
               name='email'
-              className='w-full bg-white text-black rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm'
+              className='w-full bg-white text-black rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-xs'
               aria-label='email'
               placeholder='Enter email'
               required
@@ -80,7 +80,7 @@ function ContactForm() {
               id='message'
               name='message'
               title='message'
-              className='w-full rounded-lg bg-white text-black border-gray-200 p-4 pe-12 text-sm shadow-sm form-control'
+              className='w-full rounded-lg bg-white text-black border-gray-200 p-4 pe-12 text-sm shadow-xs form-control'
               aria-label='message'
               placeholder='Enter Message'
               required

@@ -31,10 +31,11 @@ export default function SearchBar() {
         placeholder='Search pages...'
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className='px-3 py-1 rounded border border-white bg-white text-black'
+        // className='px-3 py-1 rounded border border-white bg-white text-black'
+        className='invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500 disabled:border-gray-200 disabled:bg-gray-50 disabled:text-gray-500 disabled:shadow-none dark:disabled:border-gray-700 dark:disabled:bg-gray-800/20'
       />
       {query && (
-        <ul className='absolute left-0 mt-2 w-full bg-white text-black border rounded shadow z-10'>
+        <ul className='absolute left-0 mt-2 w-full bg-white text-black border rounded shadow-sm z-10'>
           {filtered.length > 0 ? (
             filtered.map((page) => (
               <li key={page.path}>

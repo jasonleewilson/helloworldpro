@@ -11,10 +11,14 @@ export default function Header() {
       currentPath === path ? "underline font-semibold text-white" : "text-white"
     }`;
 
+  // const [isScrolled, setIsScrolled] = useState(false);
+
   return (
-    <header className='grid grid-cols-4 p-4 bg-blue-600'>
+    <header className='grid grid-cols-4 p-4'>
       <div className='col-span-1'>
-        <Logo />
+        <div className='w-32'>
+          <Logo />
+        </div>
       </div>
       <div className='col-span-1'>
         <SearchBar />
@@ -36,5 +40,12 @@ export default function Header() {
         </nav>
       </div>
     </header>
+
+    // <header
+    //   className={`h-16 z-10 fixed top-0 left-0 w-screen transition-all duration-200
+    //   ${isScrolled ? "bg-white" : "bg-transparent"}`}
+    // >
+    //   NEW HEADER
+    // </header>
   );
 }

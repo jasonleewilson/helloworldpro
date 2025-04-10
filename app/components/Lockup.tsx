@@ -24,7 +24,7 @@ function Lockup({
       <div className='grid grid-cols-1 lg:grid-cols-2 grid-rows-1 text-black'>
         <div className='self-stretch flex flex-col justify-center items-center gap-4 p-24'>
           <div className="self-stretch text-left justify-start text-zinc-500 text-6xl font-bold font-['Arial'] leading-[64px]">
-            <h2 className='mb-2 font-extrabold bg-gradient-to-r from-red-500 to-purple-900 text-transparent bg-clip-text inline-block'>
+            <h2 className='mb-2 font-extrabold bg-linear-to-r from-red-500 to-purple-900 text-transparent bg-clip-text inline-block'>
               {heading}
             </h2>
             <div className='flex flex-1 w-full'>
