@@ -25,17 +25,10 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-<<<<<<< HEAD
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <div className='z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex'>
-        <div className='fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none'>
-          <h1>About page.(coming from staging branch)</h1>
-=======
     <>
       <section className='animate-fade-in-scale w-full mx-auto grid grid-rows-1 grid-col-1 lg:grid-cols-2 gap-4 py-16'>
         <div className='w-full h-auto'>
           <img src={image1} alt='' />
->>>>>>> dev
         </div>
         <div className='w-full h-auto flex flex-col items-center justify-center'>
           <h1 className='text-2xl md:text-5xl text-white font-extrabold shadow-black bg-transparent'>
