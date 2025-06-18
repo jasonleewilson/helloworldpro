@@ -57,7 +57,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
 
-  /* --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
+  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
 
   @keyframes fade-in-scale {
     0% {
@@ -68,7 +68,7 @@
       opacity: 1;
       transform: scale(1);
     }
-  } */
+  }
 }
 
 /*
@@ -195,3 +195,4 @@
     @apply bg-background text-foreground;
   }
 } */
+.st0{fill:none;}

@@ -37,6 +37,15 @@ export default function Header() {
           <Link to='/test1' className={linkClass("/test1")}>
             Test1
           </Link>
+          <Link to='/test3' className={linkClass("/test3")}>
+            Test3
+          </Link>
+          <Link to='/test4' className={linkClass("/test4")}>
+            Test4
+          </Link>
+          <Link to='/blank' className={linkClass("/blank")}>
+            Blank
+          </Link>
         </nav>
       </div>
     </header>

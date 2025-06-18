@@ -22,7 +22,7 @@ export const meta: MetaFunction = () => {
 
 export default function Test1() {
   return (
-    <main className='font-serif text-black'>
+    <main className='grow font-serif text-black'>
       <Lockup
         heading='Section 1'
         paragraph='Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.'

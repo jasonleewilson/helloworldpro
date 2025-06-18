@@ -51,7 +51,7 @@ function Lockup({
           </div>
         </div>
         <div className={order}>
-          <img src={image} alt='something cool' />
+          <img src={image} alt='something cool' className='w-full' />
         </div>
       </div>
     </>
